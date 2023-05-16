@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import 'semantic-ui-css/semantic.min.css'
+
 import App from './App';
+import AppContextProvider from './AppContext';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <AppContextProvider>
+      <App/>
+    </AppContextProvider>
   </React.StrictMode>
 );
 

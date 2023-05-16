@@ -1,0 +1,23 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Mock Post 1",
+      "body": "This is a mock post."
+    },
+    {
+      "id": 2,
+      "title": "Mock Post 2",
+      "body": "This is another mock post."
+    }
+  ],
+  "login": {
+    "access": "rekijuhagsdabsfbafasdasdyasdyau",
+    "refresh": "dfghdflhgdsbhfuisbfdsbfisdfbdsfib"
+  },
+  "profile": {
+    "id": 1,
+    "first_name": "John",
+    "last_name": "Doe"
+  }
+}
